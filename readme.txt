@@ -1,12 +1,12 @@
 === Plugins List ===
 Contributors: nutsmuggler
-Donate link: http://example.com/
-Tags: comments, spam
-Requires at least: 2.0.2
-Tested up to: 2.1
-Stable tag: 4.3
+Donate link: http://davidebenini.it/wordpress-plugins
+Tags: comments
+Requires at least: 2.5.1
+Tested up to: 2.6
+Stable tag: /trunk/
 
-This plugins allows you to insert a list of the Wordpress pluginsyou are using into any post/page.
+This plugins allows you to insert a list of the Wordpress plugins you are using into any post/page.
 
 == Description ==
 
