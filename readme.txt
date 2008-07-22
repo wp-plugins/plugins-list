@@ -23,7 +23,7 @@ To get a list of the plugins that are installed and activated in your website, i
 	          
 	
     <ul>
-    [plugin list]
+    [plugins list]
 	  </ul>
 
 
@@ -31,7 +31,7 @@ If, for some obscure reason (I cannot think of any), you want to list also the p
 
 
     <ul>
-    [plugin list all]
+    [plugins list all]
     </ul>
 
 
