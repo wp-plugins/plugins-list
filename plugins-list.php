@@ -3,7 +3,7 @@
 Plugin Name: Plugins list
 Plugin URI: http://davidebenini.it/wordpress-plugins/plugins-list/
 Description: Displays a list of the active plugins - just insert [plugins list] in posts or pages, betweebìn <ul> and </ul>. If you want to show also the plugins that you have installed but are not presently using, just insert [plugins list all]. ONly one pluin list allowed for post or page.<a href="http://davidebenini.it/credits">Example here</a>.
-Version: 0.2.01
+Version: 0.2.02
 Author: Davide Benini
 Author URI: http://www.davidebenini.it/
 */
@@ -46,10 +46,11 @@ function dbenini_plugins ($content) {
 			global $post, $plugin_css_displayed;
 			$show_inactive_plugins = FALSE;
 			$active_tag = "[plugins list]";
-			$all_tag = "[plugins list all]";
-			if (!strstr($content, $active_tag) && !strstr($content, $all_tag))
+			$all_tag = "[plugins list all]"; 
+			$bypass_tag = "<!-- Bypass plugins list -->";
+			if ((!strstr($content, $active_tag) && !strstr($content, $all_tag)) || strstr($content,$bypass_tag))
 				return $content;
-            if (strstr($content, $active_tag)) { 
+        	if (strstr($content, $active_tag)) { 
 				$actual_tag = $active_tag;
 			} else { 
 				$actual_tag = $all_tag;
