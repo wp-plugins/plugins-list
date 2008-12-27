@@ -3,7 +3,7 @@ Contributors: nutsmuggler
 Donate link: http://davidebenini.it/wordpress-plugins
 Tags: comments
 Requires at least: 2.5.1
-Tested up to: 2.6
+Tested up to: 2.7
 Stable tag: /trunk/
 
 This plugins allows you to insert a list of the Wordpress plugins you are using into any post/page.
