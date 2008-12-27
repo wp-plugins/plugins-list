@@ -3,7 +3,7 @@
 Plugin Name: Plugins list
 Plugin URI: http://davidebenini.it/wordpress-plugins/plugins-list/
 Description: Displays a list of the active plugins - just insert [plugins list] in posts or pages, between ul or ol elements. If you want to show also the plugins that you have installed but are not presently using, just insert [plugins list all]. Only one plugins list allowed for post or page. <a href="http://davidebenini.it/credits">Example here</a>.
-Version: 0.2.1
+Version: 0.2.2
 Author: Davide Benini
 Author URI: http://www.davidebenini.it/
 */
