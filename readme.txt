@@ -24,7 +24,7 @@ To get a list of the plugins that are installed and activated in your website, i
 	
     <ul>
     [plugins list]
-	  </ul>
+	 </ul>
 
 
 If, for some obscure reason (I cannot think of any), you want to list also the plug-ins you have installed but are not using, here's the formula:
