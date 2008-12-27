@@ -93,7 +93,7 @@ function dbenini_plugins ($content) {
 					
 			
 					if ($show_inactive_plugins | is_plugin_active($plugin_file)) {
-					   echo "<li><a href='{$plugin_data['PluginURI']}' title='{$plugin_data['Title']}'>{$plugin_data['Title']}</a> (v. {$plugin_data['Version']} ) by <a href='{$plugin_data['AuthorURI']}' title='{$plugin_data['Author']}'>{$plugin_data['AuthorURI']}</a>.</li>";
+					   echo "<li><a href='{$plugin_data['PluginURI']}' title='{$plugin_data['Title']}'>{$plugin_data['Title']}</a> (v. {$plugin_data['Version']} ) by <a href='{$plugin_data['AuthorURI']}' title='{$plugin_data['Author']}'>{$plugin_data['Author']}</a>.</li>";
 					}
 				 //do_action( 'after_plugin_row', $plugin_file );
 				 $i++;
